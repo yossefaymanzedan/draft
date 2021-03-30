@@ -168,6 +168,20 @@ transform: translateY(-50px) translateX(-40px);
       
       }
   }
+  @-webkit-keyframes circlename {
+    0% {
+    position: relative;
+    top: 0%;
+        border: 100%;
+        background-color: gold;
+    }
+    50% {
+        width: 50%;
+        border-radius: 50%;
+        background-color: gold;
+    
+    }
+}
   @keyframes animatedgradient {
       0% {
           background-position: 0% 50%;
@@ -396,6 +410,114 @@ transform: translateY(-50px) translateX(-40px);
     }
 }
 @keyframes spinReverse {
+    0% {
+        transform: rotate(45deg);
+    }
+    25% {
+        transform: rotate(225deg);
+    }
+    50% {
+        transform: rotate(225deg);
+    }
+    75% {
+        transform: rotate(405deg);
+    }
+    100% {
+        transform: rotate(405deg);
+    }
+}
+
+
+
+
+@-webkit-keyframes eyeMove {
+    0% {
+        transform: translateX(50px);
+    }
+    25% {
+        transform: translateX(25px);
+    }
+    50% {
+        transform: translateX(25px);
+    }
+    75% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(50px);
+    }
+}
+
+@-webkit-keyframes rotateInDownLeft {
+    0% {
+        transform: rotate(45deg);
+    }
+    25% {
+        transform: rotate(135deg);
+    }
+    50% {
+        transform: rotate(135deg);
+    }
+    75% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@-webkit-keyframes rotateInUpRight {
+    0% {
+        transform: rotate(45deg);
+    }
+    25% {
+        transform: rotate(-45deg);
+    }
+    50% {
+        transform: rotate(-45deg);
+    }
+    75% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+@-webkit-keyframes rotateInUpLeft {
+    0% {
+        transform: rotate(45deg);
+    }
+    25% {
+        transform: rotate(135deg);
+    }
+    50% {
+        transform: rotate(135deg);
+    }
+    75% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+@-webkit-keyframes spin {
+    0% {
+        transform: rotate(45deg);
+    }
+    25% {
+        transform: rotate(-135deg);
+    }
+    50% {
+        transform: rotate(-135deg);
+    }
+    75% {
+        transform: rotate(-315deg);
+    }
+    100% {
+        transform: rotate(-315deg);
+    }
+}
+@-webkit-keyframes spinReverse {
     0% {
         transform: rotate(45deg);
     }
